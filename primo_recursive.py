@@ -19,7 +19,7 @@ def obter_primos_recursivo(n):
         return primos
     
     if n <= 1:
-        return "Insira um número maior que 1"
+        return "O número deve ser maior que 1"
     
     return encontrar_primos_atual(n)
 
