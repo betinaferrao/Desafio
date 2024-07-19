@@ -8,7 +8,7 @@ Para executar o script `fibonacci_linear.py`, utilize o comando no terminal:
 
 ```bash
 python fibonacci_linear.py
-
+```
 Para executar o script `fibonacci_recursive.py`, utilize o comando no terminal:
 
 ```bash
