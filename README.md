@@ -2,7 +2,7 @@
 
 Esse documento contém as respostas das perguntas
 
-### Como Rodar
+### Códigos em Python: Como Rodar
 
 Para executar o script `fibonacci_linear.py`, utilize o comando no terminal:
 
