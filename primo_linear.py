@@ -7,9 +7,6 @@ def verifica_primo(num):
     return True
 
 def obter_primos(n):
-    if n <= 1:
-        return "O número deve ser maior que 1"
-    
     primos = []
     for num in range(2, n + 1):
         if verifica_primo(num):

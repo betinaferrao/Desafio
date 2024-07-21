@@ -10,16 +10,13 @@ def verificar_primo_recursivo(num, div=None):
     return verificar_primo_recursivo(num, div - 1)
 
 def obter_primos_recursivo(n):
-    def encontrar_primos_atual(atual):
-        if atual < 2:
+    def encontrar_primos_atual(numero):
+        if numero < 2:
             return []
-        primos = encontrar_primos_atual(atual - 1)
-        if verificar_primo_recursivo(atual):
-            primos.append(atual)
+        primos = encontrar_primos_atual(numero - 1)
+        if verificar_primo_recursivo(numero):
+            primos.append(numero)
         return primos
-    
-    if n <= 1:
-        return "O número deve ser maior que 1"
     
     return encontrar_primos_atual(n)
 
