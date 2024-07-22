@@ -13,5 +13,16 @@ def obter_primos(n):
             primos.append(num)
     return primos
 
-n = int(input('Digite um número: '))
-print(obter_primos(n))
+def solicitar_numero():
+    while True:
+        n = int(input('Digite um número maior que um: '))
+        if n > 1:
+            return n
+        else:
+            print("Por favor, insira um número maior que um.")
+        
+
+n = solicitar_numero()
+primos = obter_primos(n)
+print(primos)
+
